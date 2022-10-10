@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <title>Shoping Cart</title>
+    <!--get Tilwin css link -->
+    <!-- <script
+        src="https://cdn.tailwindcss.com"></script> -->
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="tital">
+            My
+            shopping cart</h1>
+    </header>
+    <main>
+        <section id="mainContainer">
+            <!-- get  fist part -->
+            <div class="part">
+                <div class="part_1-1">
+                    <img src="images/product-1.png"
+                        alt="">
+                    <h1>iPhone 11 128GB Black</h1>
+                    <div id="pl-mu-ip">
+                        <button id="phone-minus"
+                            class="minus">-</button>
+                        <input id="phone-input"
+                            class="text-input"
+                            type="text" value="0">
+                        <button id="phone-plus"
+                            class="plus">+</button>
+                    </div>
+                    <h1>$<span
+                            id="phone-total">100</span>
+                    </h1>
+                    <div id="remove-img">
+                        <img src="images/remove.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- get second part -->
+            <div class="part">
+                <div class="part_1-1">
+                    <img src="images/product-2.png"
+                        alt="">
+                    <h1>iPhone 11 128GB Black</h1>
+                    <div id="pl-mu-ip">
+                        <button id="case-minus"
+                            class="minus">-</button>
+                        <input id="case-input"
+                            class="text-input"
+                            type="text" value="0">
+                        <button id="case-plus"
+                            class="plus">+</button>
+                    </div>
+                    <h1>$<span
+                            id="case-total">50</span>
+                    </h1>
+                    <div id="remove-img">
+                        <img src="images/remove.png"
+                            alt="">
+                    </div>
+                </div>
+            </div>
+            <!-- get thard pard -->
+            <div class="part">
+                <div id="three-part">
+                    <div>
+                        <h1>Subtotal:</h1>
+                        <h1>Tax:</h1>
+                        <h1>Total:</h1>
+                    </div>
+                    <div>
+                        <h1>$<span
+                                id="subtotal">0</span>
+                        </h1>
+                        <h1>$<span
+                                id="tex">0</span>
+                        </h1>
+                        <h1>$<span
+                                id="total">0</span>
+                        </h1>
+                    </div>
+                </div>
+            </div>
+            <div id="chack-btn">
+                <button id="button">Chack
+                    Out</button>
+            </div>
+        </section>
+    </main>
+    <script src="js/style.js"></script>
+</body>
+
+</html>
